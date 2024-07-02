@@ -30,7 +30,7 @@ const Features = () => {
         opacity: 1,
         ease: "power1",
       },
-      { scrub: 5.5 }
+      { scrub: 4.5 }
     );
 
     animateWithGsap(
@@ -76,7 +76,7 @@ const Features = () => {
 
             <div className="relative flex w-full flex-col">
               <div className="feature-video-container">
-                <div className="h-[50vh] flex-1 ove rflow-hidden">
+                <div className="h-[50vh] flex-1 overflow-hidden">
                   <img
                     src={explore1Img}
                     alt="titanium"
